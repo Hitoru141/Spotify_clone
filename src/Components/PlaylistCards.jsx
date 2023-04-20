@@ -10,64 +10,24 @@ const PlaylistCards = () => {
         <div className='Content'>
             <h2>Focus</h2>
                 <div className='card-wrapper'>
+                {[...Array(8)].map((_, index) => (
                     <Cards img={piano}
                     title="Peaceful Piano"
                     description="Relax and indulge with beautiful piano pieces"/>
-                    <Cards img={piano}
-                    title="Peaceful Piano"
-                    description="Relax and indulge with beautiful piano pieces"/>
-                    <Cards img={piano}
-                    title="Peaceful Piano"
-                    description="Relax and indulge with beautiful piano pieces"/>
-                    <Cards img={piano}
-                    title="Peaceful Piano"
-                    description="Relax and indulge with beautiful piano pieces"/>
-                    <Cards img={piano}
-                    title="Peaceful Piano"
-                    description="Relax and indulge with beautiful piano pieces"/>
-                    <Cards img={piano}
-                    title="Peaceful Piano"
-                    description="Relax and indulge with beautiful piano pieces"/>
-                    <Cards img={piano}
-                    title="Peaceful Piano"
-                    description="Relax and indulge with beautiful piano pieces"/>
-                    <Cards img={piano}
-                    title="Peaceful Piano"
-                    description="Relax and indulge with beautiful piano pieces"/>
-                    
+                ))}
                 </div>
-                <h2>Spotify Playlists</h2>
+            <h2>Spotify Playlists</h2>
                 <div className='card-wrapper'>
-                    <Cards img={posty}
-                    title="Today's Top Hits"
-                    description="Post Malone is on top of the Hottest 50! "/>
-                    <Cards img={posty}
-                    title="Today's Top Hits"
-                    description="Post Malone is on top of the Hottest 50! "/>
-                    <Cards img={posty}
-                    title="Today's Top Hits"
-                    description="Post Malone is on top of the Hottest 50! "/>
-                    <Cards img={posty}
-                    title="Today's Top Hits"
-                    description="Post Malone is on top of the Hottest 50! "/>
-                    <Cards img={posty}
-                    title="Today's Top Hits"
-                    description="Post Malone is on top of the Hottest 50! "/>
-                    <Cards img={posty}
-                    title="Today's Top Hits"
-                    description="Post Malone is on top of the Hottest 50! "/>
-                    <Cards img={posty}
-                    title="Today's Top Hits"
-                    description="Post Malone is on top of the Hottest 50! "/>
-                    <Cards img={posty}
-                    title="Today's Top Hits"
-                    description="Post Malone is on top of the Hottest 50! "/>
-                  
-                    
-                </div>
-                
-            </div> 
-    </div>
+                {[...Array(8)].map((_, index) => (
+                    <Cards
+                    img={posty}
+                    title={`Playlist ${index + 1}`}
+                    description={`Description for Playlist ${index + 1}`}
+                    />
+                ))}
+          </div>   
+      </div> 
+  </div>
   )
 }
 
