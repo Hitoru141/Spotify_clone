@@ -8,9 +8,7 @@ import Musicbar from '../Components/Musicbar'
 const Home = () => {
   return (
     <div className='mainwrapper'>
-         <div className='pagenavwrap'>
         <Pagenav/>
-        </div>
         <SidebarNav/>
        <div className='playlist-wrap'>
         <PlaylistCards/>

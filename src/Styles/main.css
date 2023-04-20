@@ -6,7 +6,6 @@ p{
     
 }
 .sidebar-mainwrapper{
-    margin-top: -3.8rem;
     background-color: rgb(1, 0, 0);
     width: 15rem;
     height: 100vh;
@@ -25,6 +24,7 @@ p{
 
 /* PageNav CSS */
 .pagenav{
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -32,7 +32,7 @@ p{
     width: 86.7vw;
     background-color: #101010a3;
     height: 6.0vh;
-    z-index: -1;
+    right: 1px;
 }
 .btn-wrapper{
     display: flex;

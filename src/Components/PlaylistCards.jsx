@@ -21,8 +21,8 @@ const PlaylistCards = () => {
                 {[...Array(8)].map((_, index) => (
                     <Cards
                     img={posty}
-                    title={`Playlist ${index + 1}`}
-                    description={`Description for Playlist ${index + 1}`}
+                    title={`Today's Top Hits`}
+                    description={`Post Malone is on top of the Hottest 50!`}
                     />
                 ))}
           </div>   

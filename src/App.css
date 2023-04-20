@@ -1,6 +1,5 @@
 body{
   margin: 0;
   padding: 0;
-  background: rgb(18,18,18);
-background: linear-gradient(0deg, rgba(18,18,18,1) 38%, rgba(29,28,28,1) 74%, rgba(43,41,41,1) 100%);
+  background: linear-gradient(0deg, rgba(18,18,18,1) 38%, rgba(29,28,28,1) 74%, rgba(43,41,41,1) 100%);
 }
