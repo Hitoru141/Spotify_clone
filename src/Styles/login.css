@@ -1,0 +1,27 @@
+.login-wrapper{
+    background-color: white;
+    color: black;
+    width: 100vw;
+    height: 100vh;
+}
+.topbar{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100vw;
+    height: 9vh;
+    border-top: rgba(149, 149, 154, 0.486) 1px solid;
+    border-bottom: rgba(149, 149, 154, 0.486) 1px solid;
+    margin-bottom: 2rem;
+}
+.topbar-logo{
+    margin: 1.5rem;
+    width: 150px;
+    height: 45px;
+}
+.login-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

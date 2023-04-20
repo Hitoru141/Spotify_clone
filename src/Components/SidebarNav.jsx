@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Styles/main.css'
-import spotify from '../assets/spotlogo.png'
+import spotify from '../assets/spotwhite.png'
 
 
 

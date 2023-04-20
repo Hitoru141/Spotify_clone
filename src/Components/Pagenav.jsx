@@ -2,8 +2,7 @@ import React from 'react'
 import '../Styles/main.css'
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
-
-
+import { Link } from 'react-router-dom';
 
 const Pagenav = () => {
   return (
@@ -37,9 +36,8 @@ const Pagenav = () => {
         </Tooltip>
         </div>
     <p className='p-signup'> Sign up</p>
-      <div className='login-btn'>Log In</div>
+     <Link  to="/login"><div className='login-btn'>Log In</div></Link> 
     </div>
-   
   )
 }
 
