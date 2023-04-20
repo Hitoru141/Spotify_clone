@@ -1,0 +1,84 @@
+/* Sidebar CSS */
+p{
+    font-size: 0.9em;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.sidebar-mainwrapper{
+    margin-top: -3.8rem;
+    background-color: rgb(1, 0, 0);
+    width: 15rem;
+    height: 100vh;
+    z-index: 100;
+}
+.spotlogo{
+    margin: 1rem 1.5rem;
+    width: 9rem;
+}
+.menu-list{
+    margin: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+/* PageNav CSS */
+.pagenav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 86.7vw;
+    background-color: #101010a3;
+    height: 6.0vh;
+    z-index: -1;
+}
+.btn-wrapper{
+    display: flex;
+    margin: 2rem;
+    flex-direction: row;
+}
+.button-nav{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33px;
+    height: 33px;
+    margin: 8px;
+    background-color: #0a0a0a;
+    border-radius: 100%;
+    
+}
+.signin-wrap{
+    display: flex;
+    margin-left: 80rem;
+    color: #a3a3a3;
+}
+.p-signup{
+    position: absolute;
+    right: 11rem;
+    font-size: 1em;
+    color: #a4a4a4;
+}
+.p-signup:hover{
+    font-size: 1.1em;
+    color: white;
+}
+.login-btn{
+    position: absolute;
+    font-size: 1em;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 35px;
+    border-radius: 25px;
+    right: 2rem;
+    background-color: white;
+    color: black;
+}
+.login-btn:hover{
+    font-size: 1.1em;
+}

@@ -1,0 +1,20 @@
+.Mainwrapper{
+    display: flex;
+    color: #ffff;
+   
+    min-height: 49.2vw;
+    width: 86.7vw;
+}
+.Content{
+    display: flex;
+    flex-direction: column;
+    margin: 0.2rem 2rem;
+}
+.card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    /* flex-direction: none; */
+    grid-gap: 1.5em;
+    border-radius: 20px;
+  
+}

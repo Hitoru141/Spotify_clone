@@ -1,0 +1,71 @@
+.main-card{
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    width: 180px;
+    height: 270px;
+    background-color: #1d1c1c;
+    border-radius: 10px;
+}
+
+.main-card:hover{
+    border-radius: 10px;
+    background-color: #342f2f;
+    transition: all 1s;
+
+}
+
+.img-container{
+    margin: 1rem 1rem;
+    width: 150px;
+    height: 140px;
+    border-radius: 10px;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.playlist-img{
+    width: 150px;
+    height: 140px;
+}
+.card-details{
+    margin: 0 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.p-title{
+    font-size: 1em;
+    margin: 0 0.5rem;
+    text-align: center;
+}
+.p-desc{
+    text-align: center;
+    margin: 0;
+    font-weight: 600;
+    font-size: 0.8em;
+    color: #989898;
+}
+.play-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 7.3rem;
+    margin-top: -2.5rem;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #1ed760;
+    z-index: 1;
+  }
+.play-button:hover{
+    transition: opacity 0.3s ease-in-out 0.2s;
+}
+  .play-button i{
+    font-size: 1.5em;
+    color: #000000;
+  }
